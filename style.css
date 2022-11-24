@@ -9,9 +9,10 @@ body {
 
 .bigContainer {
     margin-top: 2%;
-    border: 0.3vh black solid;
-    width: 50%;
-    height: 90vh;
+    border: 2px black solid;
+    width: fit-content;
+    padding: 12px;
+    height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,26 +20,26 @@ body {
 }
 
 .show {
-    width: 90%;
+    width: 350px;
     /* border-bottom: 2px black solid; */
-    height: 25%;
+    height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: lightblue;
-    border-radius: 50vh;
-    margin-top: 1vh;
+    border-radius: 50px;
+    margin-top: 10px;
 }
 
 .show h1 {
-    font-size: 12vh;
+    font-size: 3rem;
 }
 
 .others {
     width: 90%;
     height: 75%;
     /* border: 2px black solid; */
-    margin-top: 1vh;
+    margin-top: 20px;
 }
 
 .divContainer {
@@ -53,13 +54,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 50vh;
-    width: 18vh;
-    height: 15vh;
-    margin: 1vh;
+    border-radius: 50px;
+    width: 70px;
+    height: 70px;
+    margin: 5px;
     background-color: black;
     color: white;
-    font-size: 8vh;
+    font-size: 3rem;
     cursor: pointer;
 }
 
@@ -80,4 +81,8 @@ body {
 
 .div {
     background-color: green;
+}
+
+@media only screen and (max-width: 600px) {
+    
 }
