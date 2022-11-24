@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.bigContainer {
+    margin-top: 2%;
+    border: 2px black solid;
+    width: 50%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.show {
+    width: 90%;
+    /* border-bottom: 2px black solid; */
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+
+.show h1 {
+    font-size: 6rem;
+}
+
+.others {
+    width: 90%;
+    height: 75%;
+    /* border: 2px black solid; */
+    margin-top: 5px;
+}
+
+.divContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* border: 2px red solid; */
+    height: 100%;
+}
+
+.num {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    width: 110px;
+    aspect-ratio: 112/95;
+    margin: 5px;
+    background-color: black;
+    color: white;
+    font-size: 4rem;
+    cursor: pointer;
+}
+
+.sign {
+    background-color: red;
+}
+.add {
+    background-color: brown;
+
+}
+.sub {
+    background-color: purple;
+
+}
+.mul {
+    background-color: lightblue;
+}
+
+.div {
+    background-color: green;
+}
